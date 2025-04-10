@@ -40,15 +40,15 @@ to_words:
     4000000: quatro milhões
     5000000: cinco milhões
     999000000: novecentos e noventa e nove milhões
-    999000999: novecentos e noventa e nove milhões novecentos e noventa e nove
-    999999000: novecentos e noventa e nove milhões novecentos e noventa e nove mil
-    999999999: novecentos e noventa e nove milhões novecentos e noventa e nove mil novecentos e noventa e nove
+    999000999: novecentos e noventa e nove milhões, novecentos e noventa e nove
+    999999000: novecentos e noventa e nove milhões, novecentos e noventa e nove mil
+    999999999: novecentos e noventa e nove milhões, novecentos e noventa e nove mil novecentos e noventa e nove
   billions:  # mil milhões
     1174315110: mil cento e setenta e quatro milhões trezentos e quinze mil cento e dez
     1174315119: mil cento e setenta e quatro milhões trezentos e quinze mil cento e dezanove
     15174315119: quinze mil cento e setenta e quatro milhões trezentos e quinze mil cento e dezanove
     35174315119: trinta e cinco mil cento e setenta e quatro milhões trezentos e quinze mil cento e dezanove
-    935174315119: novecentos e trinta e cinco mil cento e setenta e quatro milhões trezentos e quinze mil cento e dezanove
+    935174315119: novecentos e trinta e cinco mil cento e setenta e quatro milhões, trezentos e quinze mil cento e dezanove
   trillions:  # biliões
     2935174315119: dois biliões novecentos e trinta e cinco mil cento e setenta e quatro milhões trezentos e quinze mil cento e dezanove
   quadrillions:  # mil biliões

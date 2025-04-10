@@ -12,6 +12,7 @@ require 'numbers_and_words/strategies/array_joiner/languages/hu'
 require 'numbers_and_words/strategies/array_joiner/languages/ru'
 require 'numbers_and_words/strategies/array_joiner/languages/ua'
 require 'numbers_and_words/strategies/array_joiner/languages/pt-BR'
+require 'numbers_and_words/strategies/array_joiner/languages/pt'
 require 'numbers_and_words/strategies/array_joiner/languages/cs'
 require 'numbers_and_words/strategies/array_joiner/languages/vi'
 
