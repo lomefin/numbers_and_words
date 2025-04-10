@@ -1,25 +1,109 @@
 pt:
   numbers:
-    ones: [zero, um, dois, três, quatro, cinco, seis, sete, oito, nove]
-    teens: [_, onze, doze, treze, quatorze, quinze, dezesseis, dezessete, dezoito, dezenove]
+    ones:
+      male: [zero, um, dois, três, quatro, cinco, seis, sete, oito, nove]
+      female: [zero, uma, duas, três, quatro, cinco, seis, sete, oito, nove]
+    teens: [_, onze, doze, treze, catorze, quinze, dezasseis, dezassete, dezoito, dezanove]
     tens: [_, dez, vinte, trinta, quarenta, cinquenta, sessenta, setenta, oitenta, noventa]
-    hundreds: [_, cento, duzentos, trezentos, quatrocentos, quinhentos, seiscentos, setecentos, oitocentos, novecentos]
+    hundreds:
+      male: [_, cento, duzentos, trezentos, quatrocentos, quinhentos, seiscentos, setecentos, oitocentos, novecentos]
+      female: [_, cento, duzentas, trezentas, quatrocentas, quinhentas, seiscentas, setecentas, oitocentas, novecentas]
     one_hundred: cem
-    mega: [_, thousands, millions, billions, trillions, quadrillions, quintillions]
+    mega: [_, thousands, millions, thousand_millions, billions, thousand_billions, trillions, thousand_trillions, quadrillions]
     thousands: mil
     millions:
       one: milhão
       other: milhões
+    thousand_millions:
+      one: mil milhões
+      other: mil milhões
     billions:
-      one: bilhão
-      other: bilhões
+      one: bilião
+      other: biliões
+    thousand_billions:
+      one: mil biliões
+      other: mil biliões
     trillions:
-      one: trilhão
-      other: trilhões
+      one: trilião
+      other: triliões
     quadrillions:
-      one: quadrilhão
-      other: quadrilhões
-    quintillions:
-      one: quinquilhão
-      other: quinquilhões
+      one: quadrilião
+      other: quadriliões
+    ordinal:
+      ones:
+        male: [zero, primeiro, segundo, terceiro, quarto, quinto, sexto, sétimo, oitavo, nono]
+        female: [zero, primeira, segunda, terceira, quarta, quinta, sexta, sétima, oitava, nona]
+      tens:
+        male: [_, décimo, vigésimo, trigésimo, quadragésimo, quinquagésimo, sexagésimo, septuagésimo, octogésimo, nonagésimo]
+        female: [_, décima, vigésima, trigésima, quadragésima, quinquagésima, sexagésima, septuagésima, octogésima, nonagésima]
+      hundreds:
+        male: [_, centésimo, ducentésimo, trecentésimo, quadringentésimo, quingentésimo, sexcentésimo, septingentésimo, octingentésimo, noningentésimo]
+        female: [_, centésima, ducentésima, trecentésima, quadringentésima, quingentésima, sexcentésima, septingentésima, octingentésima, noningentésima]
+      mega:
+        male: [_, milésimo, milionésimo, mil-milionésimo, bilionésimo, mil-bilionésimo, triliãoésimo, mil-triliãoésimo]
+        female: [_, milésima, milionésima, mil-milionésima, bilionésima, mil-bilionésima, triliãoésima, mil-triliãoésima]
+    integral:
+      one: inteiro
+      other: inteiros
+    micro: [_, tenths, hundredths, thousandths, millionths, billionths, trillionths, quadrillionths]
+    tenths:
+      one: décimo
+      other: décimos
+    hundredths:
+      one: centésimo
+      other: centésimos
+    thousandths:
+      one: milésimo
+      other: milésimos
+    millionths:
+      one: milionésimo
+      other: milionésimos
+    billionths:
+      one: mil-milionésimo
+      other: mil-milionésimos
+    trillionths:
+      one: bilionésimo
+      other: bilionésimos
+    quadrillionths:
+      one: triliãoésimo
+      other: triliãoésimos
+    quintillionths:
+      one: quadriliãoésimo
+      other: quadriliãoésimos
+    sextillionths:
+      one: quintiliãoésimo
+      other: quintiliãoésimos
+    septillionths:
+      one: sextiliãoésimo
+      other: sextiliãoésimos
+    octillionths:
+      one: septiliãoésimo
+      other: septiliãoésimos
+    nonillionths:
+      one: octiliãoésimo
+      other: octiliãoésimos
+    decillionths:
+      one: noniliãoésimo
+      other: noniliãoésimos
+    undecillionths:
+      one: deciliãoésimo
+      other: deciliãoésimos
+    duodecillionths:
+      one: undeciliãoésimo
+      other: undeciliãoésimos
+    tredecillionths:
+      one: duodeciliãoésimo
+      other: duodeciliãoésimos
+    quattuordecillionths:
+      one: tredeciliãoésimo
+      other: tredeciliãoésimos
+    micro_separator: e
+    micro_prefix:
+      tens:
+        one: décimo
+        other: décimos
+      hundreds:
+        one: centésimo
+        other: centésimos
+      union: ' de '
     union: e
